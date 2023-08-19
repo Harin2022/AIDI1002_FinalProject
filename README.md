@@ -9,11 +9,19 @@
 </p>
 
 <p align="justify">
+=================================================================
+</p>
+
+<p align="justify">
 New changes done to this model include changing the model from ResNet50 to Resnet152 as it has the least top-1 and top-5 error rates. As well as changing the dimensional from 600 billion words with 300-dimensional embeddings. Added more layers to our model and flattened the output layer to increase accuracy and performance. Changed the number of epochs to 10 to improve speed of model generation.
 </p>
 
 <p align="justify">
 In predict.py and generate.py files data was changed to match the new model checkpoint file (model_checkpoint3) and the new encoded test features file (encoding_test_features2). Also caption was brought before image was opened so that we can see the caption while the image is open.
+</p>
+
+<p align="justify">
+=================================================================
 </p>
 
 <p align="justify">
